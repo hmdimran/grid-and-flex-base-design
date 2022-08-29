@@ -9,10 +9,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-  width: 870px;
-  margin: 0 auto;
-}
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +18,10 @@ header {
   height: 94px;
   background: #562eff;
   display: flex;
+}
+section {
+  width: 870px;
+  margin: 0 auto;
 }
 .header .logo {
   display: flex;
@@ -46,4 +46,38 @@ header {
 .menu img {
   width: 51px;
   height: 51px;
+}
+
+/* top-section */
+
+.top-section {
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 36px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  padding: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.section-title {
+  font-size: 24px;
+  color: #562eff;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin: 30px;
 }
